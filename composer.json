@@ -1,0 +1,22 @@
+{
+    "name": "swoft-laravel/validation",
+    "description": "laravel validation in swoft",
+    "type": "library\b",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangweiqiang",
+            "email": "ricky.huang@wetax.com.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SwoftLaravel\\Validation\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
