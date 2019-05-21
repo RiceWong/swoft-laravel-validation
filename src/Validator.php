@@ -25,7 +25,6 @@ class Validator {
     public static function getInstance() {
         if (self::$factory === null) {
             self::$factory = new Factory(self::getTranslator());
-            self::loadCustomerValidators();
         }
         return self::$factory;
     }
