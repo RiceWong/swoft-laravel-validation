@@ -1,7 +1,7 @@
 {
     "name": "swoft-laravel/validation",
     "description": "laravel validation in swoft",
-    "type": "library\b",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -18,5 +18,8 @@
         ]
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "illuminate/support": "^5.7",
+        "illuminate/validation": "^5.7"
+    }
 }
